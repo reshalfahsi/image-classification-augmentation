@@ -30,7 +30,7 @@ From Scratch | 4.544 | 11.58% | 27.09% |
 
 ## Validation Accuracy and Loss Curve
 
-<p align="center"> <img src="https://github.com/reshalfahsi/image-classification-augmentation/blob/master/assets/val_acc_curve.png" alt="loss_curve" > <br /> Accuracy curves of the models on the validation set. </p>
+<p align="center"> <img src="https://github.com/reshalfahsi/image-classification-augmentation/blob/master/assets/val_acc_curve.png" alt="acc_curve" > <br /> Accuracy curves of the models on the validation set. </p>
 
 <p align="center"> <img src="https://github.com/reshalfahsi/image-classification-augmentation/blob/master/assets/val_loss_curve.png" alt="loss_curve" > <br /> Loss curves of the models on the validation set. </p>
 
