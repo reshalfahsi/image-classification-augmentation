@@ -7,7 +7,7 @@
  </div>
 
 
-In this project, we will explore three distinct Swin Transformers, i.e., without augmentation, with augmentation, and without using the pre-trained weight (or from scratch). Here, the augmentation is undertaken with RandAugment, CutMix, and MixUp. We are about to witness the consequences of utilizing augmentation and pre-trained weight on the models on the imbalanced dataset, i.e., Caltech-256. The dataset is split per category with a ratio of ``81``:``9``:``10`` for the training, validation, and testing sets. For the from scratch model, each category is truncated to ``100`` instances. Applying the augmentation and pre-trained weight clearly boosts the performance of the model. Not to mention the pre-trained weight insanely pushes the model to effectively predict the right label in the top-1 and top-5.
+In this project, we will explore three distinct Swin Transformers, i.e., without augmentation, with augmentation, and without using the pre-trained weight (or from scratch). Here, the augmentation is undertaken with RandAugment, CutMix, and MixUp. We are about to witness the consequences of utilizing augmentation and pre-trained weight (transfer learning) on the models on the imbalanced dataset, i.e., Caltech-256. The dataset is split per category with a ratio of ``81``:``9``:``10`` for the training, validation, and testing sets. For the from scratch model, each category is truncated to ``100`` instances. Applying the augmentation and pre-trained weight clearly boosts the performance of the model. Not to mention the pre-trained weight insanely pushes the model to effectively predict the right label in the top-1 and top-5.
 
 
 ## Experiment
